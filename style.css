@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./2.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.form{
+    margin: 20px;
+    height: 280px;
+    width: 250px;
+    color: white;
+    background-color: rgb(11, 13, 14);
+    border-radius: 10px;
+    position: absolute;
+    top: 51.4%;
+    left: 55%;
+    padding: 40px 25px;
+}
+.form h1{
+    width: 170px;
+    padding: 10px;
+    margin: 10px 36px;
+    color: black;
+    background-color: lime;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius:25px ;
+    border: 3px dotted black;
+}
+.form input{
+    margin: 10px 10px ;
+    padding: 10px 10px;
+    width: 203px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color:white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    outline: none;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: blue;
+    font-family: Arial;
+}
+.btnn{
+    font-size: 20px;
+    padding: 10px 15px;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.btnn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.6s ease;
+}
+.btnn a:hover{
+    color: yellow;
+}
+.form .link{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    text-align: center;
+}
+.form .link  a{
+    color: rgb(171, 130, 236);
+    text-decoration: none;
+}
